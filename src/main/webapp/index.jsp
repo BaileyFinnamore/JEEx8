@@ -14,10 +14,10 @@
     <body>
         <!--Set up the message to capture any errors-->
        
-        <form action="" method="post">
-            <input type="hidden" name="action" value="add" />
+        <form action="EmailServlet" method="post">
+            <p>${message }</p>
             <table>
-                <tr>
+            	<tr>
                     <td><label>First Name:</label></td>
                     <td><input type="text" name="firstName" /></td>
                 </tr>
